@@ -1,24 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Birds of Prey AJAX & API</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>GIFs of Martial Arts</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-    <div id="buttons-here"></div>
-    <div id="gifs-here"></div>
-    <form id="toipcs-form">
-        <label for="topic-input">Add a topic of interest</label>
-        <input type="text" id="topic-input">
-        <br>
-        <input id="add-topic" type="submit" value="submit">
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Martial Arts Giphy</h1>
+        </div>
+    </div>
+    <div class ="row">
+        <div id="gifButtons" class="container">
+        </div>
+    </div>
 
-        <script type="text/javascript" src="assets/app.js"></script>
-        </script>
+    <div class="container">
+        <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
+            <div id="gifsView"></div>
+        </div>
+
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+            <form id="gif-form" role="form">
+                <h3>Martial Arts Submission</h2>
+                <div class="form-group">
+                    <label for="ma-input">Add martial arts</label>
+                    <input type="text" id="ma-input">
+                </div>
+                <input id="addGif" type="submit" value="Add martial arts" class="btn btn-primary">
+                <input id="removeGif" type="submit" value="Remove last button" class="btn btn-primary">
+            </form>    
+        </div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascript/javascript.js"></script>
 </body>
-
 </html>
