@@ -2,6 +2,9 @@ API & AJAX - Giphy
 
 * Utilize Giphy API: https://github.com/Giphy/GiphyAPI
 
+* User Page:
+https://tonyjava7.github.io/API-AJAX-Homework/
+
 * User instructions:
 	** Click on the martial arts description button and GIPHY buttons will appear.
 	** Click on the button to play it. Click it again to stop it from playing.

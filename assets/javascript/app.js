@@ -34,6 +34,7 @@ function removeLastButton(){
 function displayGifs(){
     var textBtn = $(this).attr("data-name");
     var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + textBtn + "&api_key=dc6zaTOxFJmzC&limit=10";
+    
     console.log(queryURL); 
     $.ajax({
         url: queryURL,
